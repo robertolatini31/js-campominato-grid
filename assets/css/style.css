@@ -32,6 +32,13 @@ select {
     background-color: var(--main-bg_color);
 }
 
+.container_small {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cells {flex-wrap: wrap;}
+
 
 footer .col {
     height: 80px!important;
