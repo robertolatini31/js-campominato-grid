@@ -1,5 +1,38 @@
+:root {
+    --main-bg_color: #7FFFD4;
+
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    height: 100px;
+}
+
+.logo>img {
+    height: 100px;
+}
+
+select {
+    width: 250px!important;
+}
+
+.bg_mint {
+    background-color: var(--main-bg_color);
+}
+
+
+footer .col {
+    height: 80px!important;
 }
